@@ -5,9 +5,8 @@ import java.util.Map;
 
 public class Cart {
 	
-	
 	private Map<String, CartItem> itemMap = new LinkedHashMap<>();
 	private double price;
-	
+	private Integer userID;
 	
 }
